@@ -1,0 +1,159 @@
+body {
+    padding:0px;
+    margin:0px;
+    scroll-behavior: smooth;
+    /* background-color:azure; */
+    background-color: rgba(254, 255, 255, 0.87);
+}
+
+/* styling of the navabar section  */
+
+.navbar{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-left: 40px;
+}
+
+.ul-items{
+    margin-left: 800px;
+    margin-top: 32px;
+    display: flex;
+    list-style: none;
+}
+
+.ul-li {
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.ul-li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+/* styling of the first banner section */
+
+.banner {
+    height: 680px;
+    /* border-top:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro1{
+    font-size: 2.2rem;
+    margin-top:90px;
+}
+
+.intro2{
+    margin-bottom:40px;
+    font-size:1.3rem;
+}
+
+#avatar{
+    margin-top:30px;
+}
+
+#banner-img{
+    height:400px;
+    width:60%;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+
+.banner-img2 {
+    /* border:2px solid palegreen; */
+}
+
+/* styling of the banner section */
+
+.sec2{
+    border:2px soid red;
+    background-color: #6E07F3;
+    height:600px;    
+}
+
+.intro {
+    padding-top:70px;
+    text-align: center;
+}
+
+.sec2-intro-1p{
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.sec2-intro-2p{
+    font-size: 20px;
+    line-height: 15px;
+}
+
+/* From here the tech section has been started */
+
+.tech{
+    height:750px;
+    /* border:2px solid yellow; */
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 150px;
+    position: relative;;
+    /* z-index: -; */
+}
+
+.designer{
+    border:0.5px solid rgb(206, 200, 200);
+    background-color: white;
+    width:30%;
+    border-radius: 10px;
+    box-shadow: whitesmoke;
+    padding-top: 60px;
+}
+
+.designer h3{
+    font-size: 35px;
+}
+
+.designer-intro {
+    margin-bottom: 60px;
+    line-height: 15px;
+}
+
+.designer-lang{
+    font-size:18px;
+    margin-bottom:80px;
+    font-weight:bold;
+    color:blueviolet;  
+}
+
+.designer-tools h4{
+    font-size: 20px;
+}
+
+/* THis is the mistake  i made in this website  i just dont have time to solve this issue that's why i wrote
+ rough css here this will make problem while responsive */
+.empty-section {
+    height:571px;
+    /* border:2px solid blue; */
+}
+
+.work{
+    height: 500px;
+    border:2px solid red;
+}
+
